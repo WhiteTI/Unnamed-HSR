@@ -1,0 +1,39 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'black-14': '#14141B',
+        'black-19': '#191920',
+        'black-f1': '#1F1F27',
+        'black-24': '#24242E',
+        'gray-36': '#363643',
+        'white-ebe': '#EBEAEA',
+        'light-gray-AE': '#AEAEAEFF',
+        '5-star-color': '#FFCC33',
+        '4-star-color': '#9A69D4',
+        '3-star-color': '#70a1e9',
+        'fire-color': '#f3654e',
+        'fire-second-color': '#3D1818',
+        'wind-color': '#41c68b',
+        'wind-second-color': '#183D35',
+        'ice-color': '#4cabde',
+        'ice-second-color': '#182A3D',
+        'lightning-color': '#c65ee3',
+        'lightning-second-color': '#33183D',
+        'imaginary-color': '#f4e037',
+        'imaginary-second-color': '#3D3A18',
+        'quantum-color': '#6560c8',
+        'quantum-second-color': '#23183D',
+        'physical-color': '#cfcfcf',
+        'physical-second-color': '#3A3A3A',
+      }
+    },
+  },
+  plugins: [],
+}
+
