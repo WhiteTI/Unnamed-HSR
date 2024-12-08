@@ -1,0 +1,27 @@
+.sidebar {
+    border-right: 1px solid var(--gray-36);
+}
+
+.gameLinks {
+    height: 58px;
+    border-radius: 16px;
+    background-color: var(--black-19);
+    transition: height .3s ease;
+
+    img {
+        filter: saturate(0);
+        transition: ease 0.3s;
+    }
+
+    .active {
+        filter: saturate(1);
+    }
+
+    img:hover {
+        filter: saturate(1);
+    }
+}
+
+.gameLinks:hover {
+    height: 158px;
+}
