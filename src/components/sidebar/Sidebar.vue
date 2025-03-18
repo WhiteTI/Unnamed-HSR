@@ -1,8 +1,8 @@
 <template>
     <div class="z-40 w-16 fixed h-screen py-3 bg-black-24" :class="$style.sidebar">
         <div class="flex flex-col items-center">
-            <div class="mb-7">
-                <p class="text-4xl">F</p>
+            <div class="mb-7 w-12 h-12 rounded-xl overflow-hidden">
+              <img src="@/assets/img/logo.jpg" alt="logo">
             </div>
 
             <div class="h-56">
